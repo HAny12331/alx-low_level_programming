@@ -20,7 +20,9 @@ void times_ table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
+
 			pord = num * mult;
+
 			/*
 			 * put space if product is a single number
 			 * place the first digit if its two numbrs
@@ -34,4 +36,3 @@ void times_ table(void)
 		_putchar('\n');
 	}
 }
-
