@@ -7,10 +7,10 @@
  *
  * Return: the pointer past star
  */
-char *move_past_start(char *s2)
+char *move_past_star(char *s2)
 {
 	if (*s2 == '*')
-		return (*move_past_start(s2 + 1));
+		return (move_past_star(s2 + 1));
 	else
 		return (s2);
 }
