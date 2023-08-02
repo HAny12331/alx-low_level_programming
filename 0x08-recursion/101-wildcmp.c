@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * move_past_star - past asterik
+ * move_past_start - past asterik
  * @s2: the second string, can contain wildcmp
  * Description: fajhabnsbbs
  *
  * Return: the pointer past star
  */
-char *move_past_star(char *s2)
+char *move_past_start(char *s2)
 {
 	if (*s2 == '*')
-		return (*move_past_star(s2 + 1));
+		return (*move_past_start(s2 + 1));
 	else
 		return (s2);
 }
