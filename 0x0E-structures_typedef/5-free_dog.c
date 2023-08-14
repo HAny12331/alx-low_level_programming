@@ -1,4 +1,4 @@
-#include "doh.h"
+#include "dog.h"
 #include <stdlib.h>
 
 /**
@@ -7,7 +7,7 @@
  *
  * Return: void.
  */
-void free_dog(dog_y *d)
+void free_dog(dog_t *d)
 {
 	if (d)
 	{
