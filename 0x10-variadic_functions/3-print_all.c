@@ -40,7 +40,7 @@ void format_string(char *separator, va_list ap)
 	char *str = va_arg(ap, char *);
 
 	switch ((int)(!str))
-		case 1;
+	case 1:
 			str = "(nil)";
 
 	printf("%s%s", separator, str);
@@ -60,7 +60,7 @@ void print_all(const char * const format, ...)
 		{"i", format_int},
 		{"f", format_float},
 		{"s", format_string},
-		{NULL, NUL}
+		{NULL, NULL}
 	};
 
 	va_start(ap, format);
